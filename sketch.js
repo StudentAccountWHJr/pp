@@ -43,7 +43,7 @@ function setup(){
 }
 
 function draw(){
-    background(backgroundImg);
+    background(0);
 
     text(mouseX + "," + mouseY,30,45);
     Engine.update(engine);
